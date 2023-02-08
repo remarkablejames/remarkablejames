@@ -1,8 +1,8 @@
-- 👋 Hi, I’m James
-- 👀 I’m interested in Javascript (Reactjs,Nodejs) and Python
+- 👋 Heyyyy, Welcome to my profile page
+- 👀 Here's a die-hard lover of Javascript and everything related to it.
 - 🌱 I’m currently a student at Algonquin College
-- 💞️ I like to code. Coding web applications
-- 📫 You can reach out to me on email: jamesme85.me@gmail.com
+- 💞️ I code, code and code
+- 📫 click follow and we connect ;)
 
 <!---
 remarkablejames/remarkablejames is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
