@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+
     <title>James | Portfolio</title>
   </head>
   <body>
@@ -14,15 +16,15 @@
         <div class="flex flex-row items-center space-x-3 divide-x-2">
           <a href="#" class="text-2xl font-bold text-white">James</a>
           <div class="flex items-center space-x-4 pl-3">
-            <a href="#" class="text-lg font-normal text-stone-400">Past Work</a>
-            <a href="#" class="text-lg font-normal text-stone-400">Skills</a>
-            <a href="#" class="text-lg font-normal text-stone-400"
+            <a href="#" class="text-lg font-medium text-stone-400">Past Work</a>
+            <a href="#" class="text-lg font-medium text-stone-400">Skills</a>
+            <a href="#" class="text-lg font-medium text-stone-400"
               >Achievements</a
             >
           </div>
         </div>
 
-        <a href="#" class="text-lg font-medium text-white"
+        <a href="#" class="text-lg font-bold text-white"
           >Hire Me <span aria-hidden="true">&rarr;</span></a
         >
       </div>
@@ -30,11 +32,11 @@
 
     <!-- Hero -->
     <div class=" bg-zinc-900">
-      <div class="flex items-center justify-around py-20 mx-2">
+      <div class="flex flex-col items-center justify-around py-20 mx-2 md:flex-row">
         <div>
-          <h1 class="text-4xl font-bold text-white">Hi, I'm James.</h1>
+          <h1 class="text-xl font-bold text-white">This is James.</h1>
           <h1 class="text-4xl font-bold text-white">
-            I build amazing web apps.
+            A  <span class="text-yellow">remarkable</span> full-stack 🍔 <br> web developer
           </h1>
           <p class="text-lg font-normal text-stone-400 max-w-lg mt-3">
             A full stack web developer with strong skills in developing and maintaining web applications using multiple technologies such as React, Nodejs, MongoDB, Docker, and modern production-grade workflows. Highly skilled in creating user-friendly and interactive webpages using a combination of Front-End and Back-End technologies. Adept in troubleshooting, debugging and resolving complex issues. Possesses excellent communication and problem solving skills with a commitment to delivering quality output.
@@ -42,7 +44,7 @@
           <div class="flex space-x-4">
             <a
               href="#"
-              class="px-10 py-2 mt-6 text-lg font-medium text-white bg-violet-900 rounded-lg"
+              class="px-10 py-2 mt-6 text-lg font-extrabold text-black bg-yellow rounded-lg"
               >Work With Me</a
             >
             <a
@@ -52,7 +54,7 @@
             >
           </div>
         </div>
-        <div>
+        <div class="">
           <img
             src="./img/man-developing-website-on-desk.svg"
             class="w-96"
@@ -207,53 +209,109 @@
       </div>
     </div>
 
-    <!-- MY SKILLS  -->
-    <section class="bg-zinc-900">
-      <!-- component -->
-          <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>    
-              
-          <main class="grid w-full min-h-fit py-20 text-gray-100 bg-gray-900 place-content-center">
-            <div class="flex flex-col items-center justify-center space-y-4">
-              <h1 class="text-4xl font-bold text-white">My Skills</h1>
-              <p class="text-lg font-normal text-stone-400 max-w-lg mt-3">
-                Here are a few technologies I've been working with recently.
-              </p>
+
+    <!-- ////////////////////////////////////////////// -->
+    <!-- This is skills component -->
+<div>
+    <section class="text-gray-200 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-5 py-24 ">
+          <div class="text-center mb-20">
+            <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Compétences</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">L'informatique est vaste et les langages naissent presque à tout moment, je fais tout mon possible pour être à la hauteur afin de répondre au besoin de mes clients et d'apporter de l'aide aux nouveaux développeurs.</p>
+            <div class="flex mt-6 justify-center">
+              <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
             </div>
-
-              <section x-data="skillDisplay"
-                  class="p-6 mt-9 space-y-6  bg-gray-800 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
-                  <div class="grid grid-cols-2 gap-6">
-                      <template x-for="skill in skills">
-                          <button x-text="skill.title"
-                              class="px-4 py-2 text-xl text-gray-100 transition bg-blue-600 rounded-md h-14 w-44 hover:bg-blue-700"
-                              :class="(currentSkill.title == skill.title) && 'font-bold ring-2 ring-gray-100'"
-                              @click="currentSkill = skill"></button>
-                      </template>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col ">
+              <div class="pattern-dots-md gray-light">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6  "  >
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>                </div>
+                  <div class="flex-grow ">
+                    <h2 class=" text-xl title-font font-medium mb-3">Webdesign</h2>
+                    <p class="leading-relaxed text-sm text-justify">Donner du goût ? de la couleur aux applications, je le fais afin de rendre vos sites attrayants ?. Avant de devenir webdesigner, depuis tout petit j'étais déjà familier à la couleur et du dessin.</p>
                   </div>
-
-                  <div class="flex items-center justify-center" x-data="{ circumference: 2 * 22 / 7 * 120 }">
-                      <svg class="transform -rotate-90 w-72 h-72">
-                          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
-                              class="text-gray-700" />
-
-                          <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
-                              :stroke-dasharray="circumference"
-                              :stroke-dashoffset="circumference - currentSkill.percent / 100 * circumference"
-                              class="text-blue-500 " />
-                      </svg>
-                      <span class="absolute text-5xl" x-text="`${currentSkill.percent}%`"></span>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col ">
+              <div class="pattern-dots-md gray-light">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 ">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                   </div>
-
-              </section>
-
-
-            </main>
-            
-            
-
+                  <div class="flex-grow">
+                    <h2 class=" text-xl title-font font-medium mb-3">Intégration web</h2>
+                    <p class="leading-relaxed text-sm text-justify">
+                    Donner du goût ? de la couleur aux applications, je le fais afin de rendre vos sites attrayants ?. Avant de devenir webdesigner, depuis tout petit j'étais déjà familier à la couleur et du dessin. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col ">
+              <div class="pattern-dots-md gray-light">
+                <div class="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6 ">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class=" text-xl title-font font-medium mb-3">Developpement Back-end</h2>
+                    <p class="leading-relaxed text-sm text-justify">
+                     Grâce à Php et ces frameworks (Larave, Symfoni, Slim), je peux vous réaliser un site dynamique c'est-à-dire qui interagie avec votre base de données ?. Nous pouvons essayer.
+                    </p>
+                  </div>
+                </div>
+        </div>
     </section>
-    <!-- END OF SKILLS SECTION -->
 
+    <section class="bg-zinc-900">
+      <!-- create a responsive container of 9 small boxes containing logos of different programming langues -->
+      <div class="container mx-auto pb-28 px-12">
+        <div class="grid grid-cols-6 gap-4">
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/php.png" alt="php" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="html" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/css3.png" alt="css" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="bootstrap" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/sass.png" alt="sass" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="mysql" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/laravel.png" alt="laravel" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="symfony" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="symfony" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="symfony" />
+          </div>
+          <div class="bg-zinc-800 p-4 rounded-lg">
+            <img src="https://img.icons8.com/color/48/000000/symfony.png" alt="symfony" />
+          </div>
+        </div>
+    </section>
+</div>
+<!-- //////--------------------------------------------- -->
+
+   
     <!-- ACHIEVEMENTS SECTION -->
 
     <section class="bg-zinc-900">
@@ -364,45 +422,6 @@
       </section>
 
 
-      <!-- SCRIPT FOR SKILLS SECTION -->
-
-      <script>
-        document.addEventListener('alpine:init', () => {
-            Alpine.data('skillDisplay', () => ({
-                skills: [{
-                        'title': 'HTML',
-                        'percent': '95',
-                    },
-                    {
-                        'title': 'CSS',
-                        'percent': '70',
-                    },
-                    {
-                        'title': 'Tailwind CSS',
-                        'percent': '90',
-                    },
-                    {
-                        'title': 'JavaScript',
-                        'percent': '70',
-                    },
-                    {
-                        'title': 'Alpine JS',
-                        'percent': '80',
-                    }, {
-                        'title': 'PHP',
-                        'percent': '65',
-                    }, {
-                        'title': 'Laravel',
-                        'percent': '75',
-                    }
-                ],
-                currentSkill: {
-                    'title': 'HTML',
-                    'percent': '95',
-                }
-            }));
-        });
-    </script>
-      <!-- END OF SKILLS SCRIPT -->
+      
   </body>
 </html>
