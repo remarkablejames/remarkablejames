@@ -18,16 +18,16 @@
                 <div class="flex flex-row items-center space-x-3 divide-x-2">
                   <a href="#" class="text-2xl font-bold text-white">James</a>
                   <div class="flex items-center space-x-4 pl-3">
-                    <a href="#" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">About</a>
-                    <a href="#" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Skills</a>
-                    <a href="#" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Projects</a>
+                    <a href="#about" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">About</a>
+                    <a href="#skills" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Skills</a>
+                    <a href="#projects" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Projects</a>
                     <a href="#" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300"
                       >Achievements</a
                     >
                   </div>
                 </div>
 
-                <a href="#" class="text-lg font-bold text-white  hover:text-yellow transition-colors duration-300"
+                <a href="mailto:jame0246@algonquinlive.com" class="text-lg font-bold text-white  hover:text-yellow transition-colors duration-300"
                   >Hire Me <span aria-hidden="true">&rarr;</span></a
                 >
               </div>
@@ -82,12 +82,12 @@
                       </p>
                       <div class="flex space-x-4">
                         <a
-                          href="#"
+                          href="mailto:jame0246@algonquinlive.com"
                           class="px-10 py-2 mt-6 text-xl font-bold text-black bg-yellow rounded-lg transition-all  duration-700 hover:bg-zinc-900 hover:text-white  "
                           >Work With Me</a
                         >
                         <a
-                          href="#"
+                          href="#projects"
                           class="px-10 py-2 mt-6 text-lg font-medium text-white bg-zinc-900 hover:bg-yellow hover:text-black transition-all duration-700 hover:font-bold rounded-lg"
                           >See My Work</a
                         >
@@ -107,7 +107,7 @@
 
       <!-- About me Section -->
 
-      <section class="bg-zinc-900">
+      <section id="about" class="bg-zinc-900">
         <div class="flex flex-col items-center  py-20 ml-24 md:flex-row space-x-6">
           
           <div class="flex flex-col items-start justify-center">
@@ -119,11 +119,12 @@
               Today, I'm on fire, and my coding abilities and techniques are booming. I've gone deep into how modern applications function, exploring many different languages and technologies. I'm currently enrolled in college, but I always enjoy learning things outside of my classes to fill my curiosity, thanks to online learning platforms.
 
             </p>
-            <a
+            <button type="submit" onclick="window.open('./docs/resume.pdf')" class="mt-6"><a
               href="#"
               class="px-10 py-2 mt-6 text-lg font-medium text-black bg-yellow rounded-lg transition-all duration-700 hover:text-white hover:bg-zinc-800"
               >Download CV</a
-            >
+            ></button>
+            
           </div>
           <div class="w-52">
             <img
@@ -137,7 +138,7 @@
       <!-- END OF ABOUT ME -->
       <!-- -====================================================== -->
         <!-- This is skills component -->
-        <div class="">
+        <div id="skills">
           <section class="text-gray-200 bg-zinc-900">
               <div class="max-w-6xl mx-auto  py-24 ">
                 <div class="flex flex-col items-end justify-center">
@@ -379,7 +380,7 @@
       <!--  -->
 
         <!-- Past Work -->
-        <section class="bg-zinc-900 mt-24">
+        <section id="projects" class="bg-zinc-900 mt-24">
           <div class="flex flex-col items-center justify-start py-20 ml-12 md:flex-row">
             <div class="flex flex-col items-start justify-center">
               <h1 class="text-4xl font-normal text-white">Some Things I've Built</h1>
@@ -416,7 +417,7 @@
               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                  <h3>
                     <a
-                       href="javascript:void(0)"
+                       href="https://natours-james.herokuapp.com/"
                        class="
                        font-semibold
                        text-white text-xl
@@ -430,15 +431,14 @@
                        hover:text-primary
                        "
                        >
-                    This is some random title for the project
+                    Natours, a tour booking app
                     </a>
                  </h3>
                  <p class="text-base text-stone-400 leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                    This is a tour booking app that I built using Node.js, It is a full stack application that allows users to book tours, and also allows admins to create, edit, and delete tours.
                  </p>
                  <a
-                  href="javascript:void(0)"
+                  href="https://natours-james.herokuapp.com/"
                   class="
                   inline-block
                   py-2
@@ -453,7 +453,7 @@
                   
                   "
                   >
-               View Details
+               Live demo
                </a>
               </div>
            </div>
@@ -468,7 +468,7 @@
               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                 <h3>
                   <a
-                     href="javascript:void(0)"
+                     href="https://video-search-app-james.netlify.app"
                      class="
                      font-semibold
                      text-white text-xl
@@ -482,15 +482,14 @@
                      hover:text-primary
                      "
                      >
-                  This is some random title for the project
+                  StreamIt, a video search app
                   </a>
                </h3>
                <p class="text-base text-stone-400 leading-relaxed mb-7">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+                  This is a video search app that I built using React.js, It  allows users to search for videos from the YouTube API, and also allows users to watch videos from YouTube.
                </p>
                <a
-                  href="javascript:void(0)"
+                  href="https://video-search-app-james.netlify.app"
                   class="
                   inline-block
                   py-2
@@ -505,7 +504,7 @@
                   
                   "
                   >
-               View Details
+               Live demo
                </a>
               </div>
            </div>
@@ -520,7 +519,7 @@
               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                 <h3>
                   <a
-                     href="javascript:void(0)"
+                     href="http://remarkablejames.netlify.app"
                      class="
                      font-semibold
                      text-white text-xl
@@ -534,15 +533,14 @@
                      hover:text-primary
                      "
                      >
-                  This is some random title for the project
+                  ShopIt, an e-commerce app
                   </a>
                </h3>
                <p class="text-base text-stone-400 leading-relaxed mb-7">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+                  This is an e-commerce app that I built using React.js, It is a full stack application that allows users to shop for products and checkout using Stripe.
                </p>
                <a
-                  href="javascript:void(0)"
+                  href="http://remarkablejames.netlify.app"
                   class="
                   inline-block
                   py-2
@@ -557,7 +555,7 @@
                   
                   "
                   >
-               View Details
+               Live demo
                </a>
               </div>
            </div>
