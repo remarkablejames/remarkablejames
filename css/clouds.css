@@ -203,3 +203,38 @@ svg {
     visibility: hidden;
   }
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    padding: 0 1rem;
+  }
+  .me,
+  #coder-svg {
+    display: none;
+  }
+  .about_me {
+    padding: 0 1rem;
+  }
+  .skills_text {
+    padding: 0 1rem;
+  }
+}
+
+/* media queries for small mobile phones */
+
+@media only screen and (max-width: 400px) {
+  #about {
+    margin-top: 20rem;
+  }
+  .hero-text a {
+    font-size: 1.5rem;
+  }
+  .button_group {
+    margin: 2rem 0rem;
+    padding: 2rem 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+}

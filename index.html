@@ -11,23 +11,16 @@
     <title>James | Portfolio</title>
   </head>
   <body class=" bg-zinc-900">
-        <section class="h-[90vh]   bg-zinc-900">
+        <section class=" h-[100vh]   bg-zinc-900">
             <!-- Navigation bar -->
             <div class=" bg-zinc-900">
-              <div class="flex items-center justify-between py-4 mx-12">
-                <div class="flex flex-row items-center space-x-3 divide-x-2">
+              <div class=" flex items-center justify-between sm:mx-12 md:mx-12 py-4 ">
+                <div class="flex flex-row items-center space-x-3  ">
                   <a href="#" class="text-2xl font-bold text-white">James</a>
-                  <div class="flex items-center space-x-4 pl-3">
-                    <a href="#about" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">About</a>
-                    <a href="#skills" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Skills</a>
-                    <a href="#projects" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300">Projects</a>
-                    <a href="#" class="text-lg font-medium text-stone-400 hover:text-yellow transition-colors duration-300"
-                      >Achievements</a
-                    >
-                  </div>
+                  
                 </div>
 
-                <a href="mailto:jame0246@algonquinlive.com" class="text-lg font-bold text-white  hover:text-yellow transition-colors duration-300"
+                <a href="mailto:jame0246@algonquinlive.com" class="  text-lg font-bold text-white  hover:text-yellow transition-colors duration-300"
                   >Hire Me <span aria-hidden="true">&rarr;</span></a
                 >
               </div>
@@ -70,17 +63,17 @@
                 </rect>
               </svg>
               <div class="clouds">
-                <div class=" bg-zinc-900/70 h-full">
+                <div class=" bg-zinc-900/60 h-full">
                   <div class="flex flex-col items-center justify-around py-20  md:flex-row">
-                    <div>
+                    <div class="hero-text">
                       <h1 class="text-xl font-normal text-white">My name is James,</h1>
                       <h1 class="text-4xl font-normal text-white">
                         a  <span class="text-yellow text-4xl font-bold">remarkable</span> full-stack 🍔 <br> web developer
                       </h1>
-                      <p class="text-lg font-normal text-stone-200 max-w-lg mt-3 text-justify">
+                      <p class=" text-lg font-normal text-stone-200 max-w-lg mt-3 text-justify overflow-hidden">
                         A full stack web developer with strong skills in developing and maintaining web applications using multiple technologies such as React, Nodejs, MongoDB, Docker, and modern production-grade workflows. Highly skilled in creating user-friendly and interactive webpages using a combination of Front-End and Back-End technologies. Adept in troubleshooting, debugging and resolving complex issues. Possesses excellent communication and problem solving skills with a commitment to delivering quality output.
                       </p>
-                      <div class="flex space-x-4">
+                      <div class="button_group flex space-x-4">
                         <a
                           href="mailto:jame0246@algonquinlive.com"
                           class="px-10 py-2 mt-6 text-xl font-bold text-black bg-yellow rounded-lg transition-all  duration-700 hover:bg-zinc-900 hover:text-white  "
@@ -88,7 +81,7 @@
                         >
                         <a
                           href="#projects"
-                          class="px-10 py-2 mt-6 text-lg font-medium text-white bg-zinc-900 hover:bg-yellow hover:text-black transition-all duration-700 hover:font-bold rounded-lg"
+                          class="px-10 py-2 mt-6 text-sm md:text-lg  font-medium text-white bg-zinc-900 hover:bg-yellow hover:text-black transition-all duration-700 hover:font-bold rounded-lg"
                           >See My Work</a
                         >
                       </div>
@@ -108,12 +101,12 @@
       <!-- About me Section -->
 
       <section id="about" class="bg-zinc-900">
-        <div class="flex flex-col items-center  py-20 ml-24 md:flex-row space-x-6">
+        <div class="about_me flex flex-col-reverse items-center  py-20  md:ml-24 md:flex-row space-x-6">
           
           <div class="flex flex-col items-start justify-center">
             
             <h1 class="text-4xl font-normal text-white text-left">About Me</h1>
-            <p class="text-lg font-normal text-stone-400 max-w-4xl mt-3 text-justify">
+            <p class="text-lg font-normal text-stone-400 max-w-4xl mt-3 text-justify ">
               My complete name is James Niyongira, and I'm an enthusiastic programmer who enjoys developing web applications. My interest in coding began during my senior year of high school in 2018, when I wanted to build a small website for my parent's business. Since then, I've experimented with creating websites by editing online templates and using site builders, which has given me the confidence to continue computer science at the advanced level of high school. For years, the entire journey was a roller-coaster ride until I chose to reignite the embers of a burning fire in me to write code by selecting web development as my college programme.
 
               Today, I'm on fire, and my coding abilities and techniques are booming. I've gone deep into how modern applications function, exploring many different languages and technologies. I'm currently enrolled in college, but I always enjoy learning things outside of my classes to fill my curiosity, thanks to online learning platforms.
@@ -126,10 +119,10 @@
             ></button>
             
           </div>
-          <div class="w-52">
-            <img
+          <div class="w-52 sm:hidden md:inline-block">
+            <img 
               src="./img/me.jpg"
-              class="w-96 rounded-md"
+              class=" me w-96 rounded-md"
               alt=""
             />
           </div>
@@ -142,8 +135,8 @@
           <section class="text-gray-200 bg-zinc-900">
               <div class="max-w-6xl mx-auto  py-24 ">
                 <div class="flex flex-col items-end justify-center">
-                  <h1 class="text-4xl font-normal text-white">Coding Skills & Tools</h1>
-                  <p class="text-lg font-normal text-stone-400 max-w-xl mt-3 text-justify">
+                  <h1 class="skills_text text-4xl font-normal text-white">Coding Skills & Tools</h1>
+                  <p class=" skills_text text-lg font-normal text-stone-400 max-w-xl mt-3 text-justify">
                     My coding skills are mainly based on the MERN stack, but I am always learning new technologies and frameworks. I am well-versed in object-oriented programming and modern web development practices, and I am comfortable working in different environments and on different platforms. I am also familiar with a variety of development tools, such as version control systems, task runners, and package managers. I am able to quickly learn new programming languages and technologies
                     
                   </p>
