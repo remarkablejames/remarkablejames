@@ -1,6 +1,6 @@
-- 👋 Heyyyy, Welcome to my profile page
-- 👀 Here's a die-hard lover of Javascript and everything related to it.
-- 🌱 I’m currently a student at Algonquin College
+- 👋 Heyyyy, Welcome to my Github profile page
+-  🌱 I’m enrolled in Web and Internet applications development @ Algonquin College
+- 👀 Here are all the projects that I have worked on, some of them complete others are sandboxes
 - 💞️ I code, code and code
 - 📫 click follow and we connect ;)
 
