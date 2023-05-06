@@ -1,5 +1,4 @@
 # Welcome to my GitHub profile page
-- My passion to code is genetically encoded.
 -  This is where I showcase most of the projects that I work on.
 - I am looking for Internship/ COOP opportunity, If you find my work interesting, hit me up.
 - I am always ready for coding challenge
