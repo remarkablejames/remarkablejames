@@ -1,7 +1,6 @@
 # Welcome to my GitHub profile page
--  This is where I showcase most of the projects that I work on.
-- I am looking for Internship/ COOP opportunity, If you find my work interesting, hit me up.
-- I am always ready for coding challenge
+
+I'm James,  a fullstack web applications developer. Poke around and explore my public work here
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,docker,express,firebase,jquery,linux,mysql,py,raspberrypi,react,redux,replit,svg)](https://skillicons.dev)
 
