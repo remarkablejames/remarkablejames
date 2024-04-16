@@ -1,4 +1,4 @@
-# Welcome to my GitHub profile page
+# Web Applications Developer
 
 I'm James,  a fullstack web applications developer. Poke around and explore my public work here
 
