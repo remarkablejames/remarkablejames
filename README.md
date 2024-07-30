@@ -1,6 +1,6 @@
 # Web Applications Developer
 
-I'm James,  a fullstack web applications developer. Poke around and explore my public work here
+Hello stranger! welcome to my GitHub page. have fun stalking, it's free.
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,cs,docker,express,firebase,jquery,linux,mysql,py,raspberrypi,react,redux,replit,svg)](https://skillicons.dev)
 
