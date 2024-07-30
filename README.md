@@ -2,7 +2,7 @@
 
 Hello stranger! welcome to my GitHub page. have fun stalking, it's free.
 
-I write:
+I write:>>>
 [![My Skills](https://skillicons.dev/icons?i=ts,cs,py)](https://skillicons.dev)
 
 <!---
