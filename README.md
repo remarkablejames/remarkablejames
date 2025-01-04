@@ -1,5 +1,9 @@
 
-❤️😍❤️ -->> [![My Skills](https://skillicons.dev/icons?i=ts,cs,py)](https://skillicons.dev)
+Welcome to my GitHub page.
+
+I am James, a methodical software developer proficient in:
+
+[![My Skills](https://skillicons.dev/icons?i=go,ts,cs,py)](https://skillicons.dev)
 
 <!---
 remarkablejames/remarkablejames is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
