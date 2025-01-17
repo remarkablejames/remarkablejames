@@ -1,7 +1,7 @@
 
 Welcome to my GitHub page.
 
-I am James, a methodical software developer proficient in:
+I am James, a methodical software engineer proficient in:
 
 [![My Skills](https://skillicons.dev/icons?i=go,ts,cs,py)](https://skillicons.dev)
 
